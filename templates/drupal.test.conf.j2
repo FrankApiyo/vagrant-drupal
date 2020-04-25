@@ -4,7 +4,7 @@
     ServerAlias www.{{ domain }}.test
     DocumentRoot {{ drupal_core_path }}
     <Directory "{{ drupal_core_path }}">
-        Options FollowSymlinks Indexes
+        Options FollowSymLinks Indexes
         AllowOverride All
     </Directory>
 </VirtualHost>
